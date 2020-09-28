@@ -1,0 +1,207 @@
+body{
+    background-color: #ffe0e0;
+    font-family: 'Source Sans Pro', sans-serif;
+    z-index: 2;
+    
+}
+
+.navbar{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+}
+
+.navbar-light{
+    background-color: #ff9393;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fc4c4c;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    font-weight: bolder;
+   color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #f1f1f1;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    background-color: #ff2929;
+}
+
+.navbar-light .navbar-toggler{
+    border-color:  #ffe0e0;
+}
+
+.collapse img{
+    height: 25px;
+    width: 25px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    height: 175px;
+    border: solid 5px #ff5454;
+    
+}
+
+#name{
+    color: #ff2929;
+    margin: 4%;
+    
+}
+
+#designation{
+    color: #ff2929;
+    margin: 4%;
+}
+
+.social-media-icon a{
+    margin: 1.4%;
+   
+}
+
+.btn{
+    transition: none;
+}
+
+.btn-primary{
+    background-color: #ff5454;
+    border-color: #ff5454;;
+}
+
+.btn-primary:hover{
+    background-color:#ff2929;
+    -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+}
+
+a:active{
+    background-color:#ff2929;
+}
+
+hr{
+    border: 3px solid #f1abab;
+    border-radius: 60%;   
+    width: 40%;
+    margin-top: 4%;
+}
+
+.heading-div{
+    color: #ff2929;
+}
+
+#skills h4{
+    color: #fc1d1d;
+}
+
+#skills ul{
+    padding-inline-start: 0;
+}
+
+#skills ul li{
+    color: #fd4d4d;
+    font-weight: bold;
+}
+
+#skills .col-md-4{
+    border: dotted 1px #ec9494;
+}
+
+.card-header a{
+    color: #ff2929;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.card-title{
+    color: #fc1d1d;
+    font-weight: bold;
+}
+
+.card-text{
+    color: #fd4d4d;
+    font-weight: bold;
+}
+
+
+
+#qualifications th{
+    color: #fc1d1d;
+    font-weight: bold;
+}
+
+#qualifications td{
+    color: #fd4d4d;
+    font-weight: bold;
+    
+}
+
+#cta{
+    color: #fd4d4d;
+    font-weight: bold;
+}
+
+#cta .btn{
+    margin: 3%;
+}
+
+#footer{
+    background-color: #ff9393;
+}
+
+#footer p{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+#footer i{
+    color: white;
+}
+
+.modal-img {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    z-index: 0;
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index: 1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-title{
+    color: #fc1d1d;
+    font-weight: bold;
+  }
+
+  .modal-body p{
+    color: #fd4d4d;
+    font-weight: bold;
+  }
+
+  #skills .col-md-4 h4{
+      border-bottom: dotted 1px #ec9494;
+  }
