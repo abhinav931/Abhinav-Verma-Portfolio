@@ -42,6 +42,12 @@ body{
     width: 25px;
 }
 
+@media only screen and (max-width: 600px) {
+    #intro, .intro-row{
+        padding-top: 15%;
+    }
+}
+
 .responsive {
     max-width: 100%;
     height: auto;
