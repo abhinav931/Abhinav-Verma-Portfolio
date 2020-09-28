@@ -152,14 +152,15 @@ hr{
     margin: 3%;
 }
 
+
 #footer p{
-    color: white;
+    color: #fc4c4c;
     font-weight: bolder;
     font-size: 1.2rem;
 }
 
 #footer i{
-    color: white;
+    color: #fc4c4c;
 }
 
 .modal-img {
